@@ -1,0 +1,140 @@
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    background-color: #004d97;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    height: auto;
+}
+
+ul{
+    padding: 0;
+}
+
+button{
+    outline-style: none;
+    box-sizing: none;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    margin-top: 0.5vh;
+    /* border:1px solid red; */
+    
+}
+
+.row{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    min-width: 50px;
+    width: auto;
+    color: white;
+    border: 1px solid white;
+    padding: 0px 5px;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+
+#Tab, #Backspace, #CapsLock, #Meta, #Control, #AltGraph {
+    width: 5rem;
+}
+
+.Shift1, #Enter{
+    width:8rem;
+}
+
+.space{
+    width: 45%;
+}
+
+.active{
+    background-color: #4fabff;
+    border: 1px solid #4fabff;
+    transition: all 0.3s ease-out;
+}
+
+.section-score-time{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    width:100%;
+    color: white;
+    /* border: 1px solid red; */
+    height: 300px;
+}
+
+.score{
+    display: none;
+}
+
+.btn-empezar{
+    background-color: #004d97 ;
+    color: #ffffff;
+    border:1px solid white;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.btn-empezar-hover{
+    background-color: white;
+    border:1px solid white;
+    color: #004d97 ;
+}
+
+.btn-active{
+    background-color: white;
+    border:1px solid white;
+    color: #004d97 ;
+    
+}
+
+.reiniciar{
+    margin-top: 1rem;
+}
+
+.reiniciar :hover{
+    color: #4fabff;
+    cursor: pointer;
+}
+
+.dis-none{
+    display: none;
+}
+
